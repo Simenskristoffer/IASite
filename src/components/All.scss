@@ -6,7 +6,7 @@ $navy-light: #04284d;
 $navy-bright: #052f58;
 $white: #ffffff;
 $blue: #1173c3;
-$green: #2d9c8b;
+$green: #2d9b8a;
 
 /* -------- NAVBAR -------- */
 .navbar {
@@ -17,7 +17,7 @@ $green: #2d9c8b;
     font-family: $openSans;
   }
 }
-
+/* -------- HERO -------- */
 .hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
     url(../images/road.jpg);
@@ -26,57 +26,88 @@ $green: #2d9c8b;
   background-color: $navy;
   background-size: cover;
   height: 100vh;
+  padding-bottom: 12px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 
-  h1 {
-    color: $white;
-    font-size: 52px;
-  }
+  .wrapper {
+    margin-top: 20vh;
+    text-align: center;
 
-  h2 {
-    color: white;
-    font-size: 42px;
-  }
-  .span {
-    color: $green;
-  }
-  .button {
-    margin-top: 10px;
-    background-color: $green;
-    border-color: $green;
-    color: $white;
-    font-size: 20px;
-    height: 50px;
-    width: 130px;
-    font-weight: 500;
-    border-radius: 50px;
-  }
-  .button:hover {
-    -webkit-transition: all 0.5s ease;
-    background-color: $white;
-    color: $green;
+    h1 {
+      color: $white;
+      font-size: 52px;
+    }
+
+    h2 {
+      color: white;
+      font-size: 42px;
+    }
+    .span {
+      color: $green;
+    }
+    .button {
+      margin-top: 10px;
+      background-color: $green;
+      border-color: $green;
+      color: $white;
+      font-size: 20px;
+      height: 50px;
+      width: 130px;
+      font-weight: 500;
+      border-radius: 50px;
+    }
+    .button:hover {
+      -webkit-transition: all 0.5s ease;
+      background-color: $white;
+      color: $green;
+    }
   }
 
   .innhold {
     padding-top: 20%;
   }
   .columns {
-    margin-top: 25%;
     text-align: center;
     .column {
       font-size: 28px;
       color: $blue;
     }
   }
+  .checkboxes {
+    background-color: $green;
+
+    .column {
+      color: $white;
+      font-size: 30px;
+      font-family: $openSans;
+    }
+    .check {
+      margin-right: 15px;
+    }
+  }
 }
+/* -------- CONTENT -------- */
 .tilbyr {
-  background-color: $navy-light;
+  background-color: $white;
 
   h2 {
-    color: white !important;
+    color: black !important;
     font-size: 52px !important;
+    text-align: center;
+    padding-bottom: 30px;
   }
   .innhold {
     padding-top: 20%;
+  }
+}
+/* -------- SOCIAL PROOF -------- */
+.card {
+  border-radius: 10px;
+  height: 15em;
+  .content {
+    font-style: italic;
+    font-size: 20px;
   }
 }
 .hvor {
@@ -88,6 +119,25 @@ $green: #2d9c8b;
   }
   .innhold {
     padding-top: 20%;
+  }
+}
+
+/* -------- HowToUse COMPONENT -------- */
+.howtouse {
+  h2 {
+    color: black;
+    font-size: 52px;
+    text-align: left;
+    padding-bottom: 25px;
+  }
+  li {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  iframe {
+    height: 50vh;
   }
 }
 

@@ -3,13 +3,14 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Hero from "../components/Hero"
-import Content from "../components/Content"
-import TextShuffle from "../components/TextShuffle"
+import Anmeldelser from "../components/Anmeldelser"
+import HowToUse from "../components/HowToUse"
 
 const IndexPage = () => (
   <Layout>
     <Hero />
-    <Content />
+    <Anmeldelser />
+    <HowToUse />
   </Layout>
 )
 
