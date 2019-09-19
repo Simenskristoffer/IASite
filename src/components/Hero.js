@@ -28,6 +28,7 @@ export default class Hero extends Component {
               </Link>
             </div>
           </div>
+          <Checkboxes />
         </section>
       </>
     )

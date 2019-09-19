@@ -7,6 +7,7 @@ $navy-bright: #052f58;
 $white: #ffffff;
 $blue: #1173c3;
 $green: #2d9b8a;
+$checkboxBackground: #2d9b8ab0;
 
 /* -------- NAVBAR -------- */
 .navbar {
@@ -75,7 +76,7 @@ $green: #2d9b8a;
     }
   }
   .checkboxes {
-    background-color: $green;
+    background-color: $checkboxBackground;
 
     .column {
       color: $white;
