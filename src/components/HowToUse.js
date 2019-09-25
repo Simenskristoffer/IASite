@@ -20,8 +20,8 @@ export default function HowToUse() {
           <div className="column">
             <iframe
               width="560"
-              height="800"
-              src="https://www.youtube.com/embed/VAXOlqQgO_c"
+              height="315"
+              src="https://www.youtube.com/embed/ITqEzrQbEGY"
               frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
