@@ -1,11 +1,13 @@
 import React from "react"
 
 import Iphone from "../images/iphoneIllustrasjon.png"
+import WhiteIphone from "../images/whiteAppStore.svg"
+import BlackIphone from "../images/blackAppStore.svg"
 
 export default function HowToUse() {
   return (
     <>
-      <section className="section is-medium howtouse">
+      <section className="section is-medium iphoneIllustration">
         <div className="container">
           <div className="columns">
             <div className="column">
@@ -19,6 +21,15 @@ export default function HowToUse() {
                 <li>Hent bilen</li>
                 <li>God tur!</li>
               </ol>
+              <img
+                src={WhiteIphone}
+                alt="Smart City bilapp"
+                style={{
+                  margin: "10px",
+                  width: "150px",
+                  height: "55px",
+                }}
+              />
             </div>
             <div className="column">
               <img
@@ -30,7 +41,7 @@ export default function HowToUse() {
           </div>
         </div>
       </section>
-      <section className="section is-medium howtouse">
+      <section className="section is-medium videoSection">
         <div className="container">
           <div className="columns">
             <div className="column is-centered">
@@ -38,23 +49,33 @@ export default function HowToUse() {
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ITqEzrQbEGY"
-                frameborder="0"
+                frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
               ></iframe>
             </div>
-            <div className="column is-centered">
-              <h2>Tja, hva skal det stå her da...</h2>
-              <p>
-                Lorem ipsum dolor amet vHS banh mi distillery mumblecore
-                everyday carry humblebrag organic selfies hot chicken pork belly
-                coloring book seitan. Gastropub cred copper mug 3 wolf moon
-                enamel pin listicle you probably haven't heard of them franzen
-                readymade iceland. Man bun live-edge hammock irony pop-up echo
-                park, poutine roof party marfa. Air plant man braid truffaut
-                tilde. Cloud bread meh shabby chic jean shorts pour-over ennui
-                snackwave.
+            <div className="column has-text-centered">
+              <p style={{ fontStyle: "italic", fontSize: "28px" }}>
+                Trenger du bil for å dra på handletur til Sverige, flytte ut av
+                studenthybelen eller dra på hyttetur? Vi har biler for alle
+                behov!
               </p>
+              <br />
+              <p style={{ fontSize: "20px" }}>
+                Last ned appen i dag og få tilgang en rekke EL-biler! Vi har
+                5-seters, 7-seters og varebiler! Tilbudet passer ypperlig for
+                deg som er student på utkikk etter leiebil, eller for deg som
+                trenger å få kjørt barna på trening.
+              </p>
+              <img
+                src={BlackIphone}
+                alt="Smart City bilapp"
+                style={{
+                  margin: "10px",
+                  width: "150px",
+                  height: "55px",
+                }}
+              />
             </div>
           </div>
         </div>

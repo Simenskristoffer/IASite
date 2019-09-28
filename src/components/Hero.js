@@ -1,8 +1,10 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import Navbar from "../components/Navbar"
 import Checkboxes from "../components/Checkboxes"
+import AppleIcon from "../images/whiteAppStore.svg"
 
 export default class Hero extends Component {
   constructor(props) {
@@ -23,9 +25,14 @@ export default class Hero extends Component {
               <h2 className="info">
                 Lei bil i dag fra kr. <span className="span">89,-</span> timen
               </h2>
-              <Link to="/" className="button">
-                Start Her
-              </Link>
+              <AnchorLink href="#socialProof" className="button">
+                Les mer
+              </AnchorLink>
+              <img
+                className="appleIcon"
+                src={AppleIcon}
+                alt="Smart City App nedlastning"
+              />
             </div>
           </div>
           <Checkboxes />

@@ -10,13 +10,10 @@ export default class Anmeldelser extends Component {
     }
   }
 
-  changeText = () => {
-    this.setState({ text: "Even suger" })
-  }
   render() {
     return (
       <>
-        <section className="section is-medium tilbyr">
+        <section className="section is-medium tilbyr" id="socialProof">
           <div className="container">
             <SocialProof />
           </div>
