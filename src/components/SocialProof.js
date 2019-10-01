@@ -15,7 +15,7 @@ export default function SocialProof() {
               <div className="media">
                 <div className="media-left">
                   <figure className="image is-48x48">
-                    <img src={Carl} alt="Placeholder image" />
+                    <img src={Carl} alt="Smart City Halden anmelder" />
                   </figure>
                 </div>
                 <div className="media-content">
@@ -35,7 +35,7 @@ export default function SocialProof() {
               <div className="media">
                 <div className="media-left">
                   <figure className="image is-48x48">
-                    <img src={Even} alt="Placeholder image" />
+                    <img src={Even} alt="Smart City Halden anmelder" />
                   </figure>
                 </div>
                 <div className="media-content">
@@ -55,7 +55,7 @@ export default function SocialProof() {
               <div className="media">
                 <div className="media-left">
                   <figure className="image is-48x48">
-                    <img src={Solveig} alt="Placeholder image" />
+                    <img src={Solveig} alt="Smart City Halden anmelder" />
                   </figure>
                 </div>
                 <div className="media-content">

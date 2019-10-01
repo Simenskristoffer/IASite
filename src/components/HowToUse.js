@@ -46,6 +46,7 @@ export default function HowToUse() {
           <div className="columns">
             <div className="column is-centered">
               <iframe
+                title="Smart City Halden bilutleie"
                 width="560"
                 height="315"
                 src="https://www.youtube.com/embed/ITqEzrQbEGY"
