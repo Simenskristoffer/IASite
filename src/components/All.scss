@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
 //Fonts variabels
-$openSans: "Open Sans", sans-serif;
+$openSans: "Source Sans Pro", sans-serif;
 //Color variabels
 $navy: #001f3f;
 $navy-light: #04284d;
 $navy-bright: #052f58;
 $white: #ffffff;
 $blue: #1173c3;
-$green: #2d9b8a;
+$green: #39b6a9;
 $checkboxBackground: #2d9b8ab0;
 
 /* -------- NAVBAR -------- */
@@ -39,11 +40,13 @@ $checkboxBackground: #2d9b8ab0;
     h1 {
       color: $white;
       font-size: 52px;
+      font-family: $openSans;
     }
 
     h2 {
       color: white;
       font-size: 42px;
+      font-family: $openSans;
     }
     .span {
       color: $green;
