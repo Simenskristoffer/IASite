@@ -25,7 +25,7 @@ export default class Hero extends Component {
                 Lei El-bil i dag fra kr. <span className="span">89,-</span>{" "}
                 timen
               </h2>
-              <AnchorLink href="#socialProof" className="button">
+              <AnchorLink href="#utPaaTur" className="button">
                 Les mer
               </AnchorLink>
               <img
