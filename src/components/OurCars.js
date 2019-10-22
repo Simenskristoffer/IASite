@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import elgolf from "../images/elgolfProfil.png"
+import elvarebil from "../images/varebilProfil.png"
 
 export default function OurCars() {
   return (
@@ -43,7 +44,7 @@ export default function OurCars() {
               </Link>
             </div>
             <div className="column">
-              <img src={elgolf} alt="smart city el-varebil" />
+              <img src={elvarebil} alt="smart city el-varebil" />
             </div>
           </div>
         </section>
