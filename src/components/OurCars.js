@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import elgolf from "../images/elgolfProfil.png"
-import varebil from "../images/varebilProfil.png"
 
 export default function OurCars() {
   return (
@@ -21,7 +20,7 @@ export default function OurCars() {
                 Disse bilene passer ypperlig for deg som vil kjøre og oppleve
                 området rundt Halden.
               </p>
-              <Link href="#utPaaTur" className="button">
+              <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
             </div>
@@ -39,12 +38,12 @@ export default function OurCars() {
                 som skal ha med mange på tur, eller deg som trenger å transporte
                 møbler eller andre gjenstander.
               </p>
-              <Link href="#utPaaTur" className="button">
+              <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
             </div>
             <div className="column">
-              <img src={varebil} alt="smart city el-varebil" />
+              <img src={elgolf} alt="smart city el-varebil" />
             </div>
           </div>
         </section>

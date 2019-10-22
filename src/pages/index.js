@@ -8,7 +8,7 @@ import HowToUse from "../components/HowToUse"
 import OurCars from "../components/OurCars"
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <Helmet>
       <meta charSet="utf-8" />
       <title>{"Smart City Halden - Haldens billigste bilutleie"}</title>
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <HowToUse />
     <Anmeldelser />
     <OurCars />
-  </Layout>
+  </>
 )
 
 export default IndexPage
