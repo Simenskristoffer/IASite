@@ -22,7 +22,7 @@ export default class Hero extends Component {
             <div className="wrapper">
               <h1 className="mainTitle">Ikke la avstand være en hindring</h1>
               <h2 className="info">
-                Lei El-bil i dag fra kr. <span className="span">89,-</span>{" "}
+                Lei El-bil i dag fra kr. <span className="span">79,-</span>{" "}
                 timen
               </h2>
               <AnchorLink href="#utPaaTur" className="button">
