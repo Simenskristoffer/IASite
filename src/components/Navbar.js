@@ -46,29 +46,6 @@ const Navbar = class extends React.Component {
                 style={{ maxHeight: "150px", width: "auto" }}
               />
             </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu is-white"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-end has-text-centered">
-              <Link to="/" className="navbar-item nav-links">
-                Hjem
-              </Link>
-              <Link to="/" className="navbar-item nav-links">
-                Hva vi tilbyr
-              </Link>
-            </div>
           </div>
         </div>
       </nav>

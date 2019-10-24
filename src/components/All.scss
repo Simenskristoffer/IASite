@@ -22,10 +22,10 @@ $checkboxBackground: #2d9b8ab0;
 }
 /* -------- HERO -------- */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)),
-    url(../images/road.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
+    url(../images/Sunnyhalden.png);
   background-repeat: none;
-  background-position: 30% 24%;
+  background-position: 0% 24%;
   background-color: $navy;
   background-size: cover;
   height: 100vh;
