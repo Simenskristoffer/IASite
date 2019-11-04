@@ -12,7 +12,7 @@ export default function Checkboxes() {
         </div>
         <div className="column">
           <FaCheck className="check" />
-          Ingen bensinutgifter
+          Miljøvennlig
         </div>
         <div className="column">
           <FaCheck className="check" />

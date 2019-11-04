@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Logo from "../images/HaldenCityLogo.png"
+import Instagram from "../images/instagramIcon.png"
+import Snapchat from "../images/snapchatIcon.png"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -47,6 +49,22 @@ const Navbar = class extends React.Component {
               />
             </Link>
           </div>
+          {/* <div class="navbar-end">
+            <Link to="/" className="navbar-item" title="Social Media">
+              <img
+                src={Instagram}
+                alt="Smart City Halden instagram"
+                style={{ maxHeight: "40px", width: "auto" }}
+              />
+            </Link>
+            <Link to="/" className="navbar-item" title="Social Media">
+              <img
+                src={Snapchat}
+                alt="Smart City Halden snapchat"
+                style={{ maxHeight: "40px", width: "auto" }}
+              />
+            </Link>
+          </div> */}
         </div>
       </nav>
     )
