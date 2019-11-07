@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Logo from "../images/HaldenCityLogo.png"
 import Instagram from "../images/instagramIcon.png"
 import Snapchat from "../images/snapchatIcon.png"
+import Facebook from "../images/facebookIcon.png"
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -49,7 +50,8 @@ const Navbar = class extends React.Component {
               />
             </Link>
           </div>
-          {/* <div class="navbar-end">
+          <div class="navbar-end">
+            <p className="navbar-item">Følg oss</p>
             <Link to="/" className="navbar-item" title="Social Media">
               <img
                 src={Instagram}
@@ -64,7 +66,14 @@ const Navbar = class extends React.Component {
                 style={{ maxHeight: "40px", width: "auto" }}
               />
             </Link>
-          </div> */}
+            <Link to="/" className="navbar-item" title="Social Media">
+              <img
+                src={Facebook}
+                alt="Smart City Halden facebook"
+                style={{ maxHeight: "40px", width: "auto" }}
+              />
+            </Link>
+          </div>
         </div>
       </nav>
     )
