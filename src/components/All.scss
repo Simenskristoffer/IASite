@@ -141,16 +141,17 @@ $checkboxBackground: #2d9b8ab0;
 
 /* -------- HowToUse COMPONENT -------- */
 .iphoneIllustration {
-  background-color: $navy;
+  background-color: $white;
+  height: 100vh;
   h2 {
-    color: $white;
+    color: black;
     font-size: 52px;
     text-align: left;
     padding-bottom: 25px;
   }
   li {
     font-size: 24px;
-    color: $white;
+    color: black;
     margin-bottom: 10px;
     margin-left: 20px;
   }
@@ -211,5 +212,7 @@ $checkboxBackground: #2d9b8ab0;
   background-color: $green;
   border: none;
 }
+
+//NEW-PAGE
 
 @import "~bulma/bulma.sass";

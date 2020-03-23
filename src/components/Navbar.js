@@ -45,26 +45,40 @@ const Navbar = class extends React.Component {
               style={{ maxHeight: "150px", width: "auto" }}
             />
           </Link>
+          <a
+            role="button"
+            className="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+            href="/"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-        <div class="navbar-end">
-          <Link to="/" className="navbar-item" title="Social Media">
-            Hjem
-          </Link>
-          <Link to="/Booking" className="navbar-item" title="Social Media">
-            Book nå
-          </Link>
-          <Link to="/hvordan-det-funker" className="navbar-item">
-            Hvordan virker det?
-          </Link>
-          <Link to="/våre-produkter" className="navbar-item">
-            Våre produkter
-          </Link>
-          <Link to="/kontakt" className="navbar-item" title="Social Media">
-            Kontakt
-          </Link>
-          <Link to="/medlemskap" className="navbar-item" title="Social Media">
-            Medlemskap
-          </Link>
+        <div className="navbar-menu">
+          <div class="navbar-end">
+            <Link to="/" className="navbar-item" title="Social Media">
+              Hjem
+            </Link>
+            <Link to="/Booking" className="navbar-item" title="Social Media">
+              Book nå
+            </Link>
+            <Link to="/hvordan-det-funker" className="navbar-item">
+              Hvordan virker det?
+            </Link>
+            <Link to="/våre-produkter" className="navbar-item">
+              Våre produkter
+            </Link>
+            <Link to="/kontakt" className="navbar-item" title="Social Media">
+              Kontakt
+            </Link>
+            <Link to="/medlemskap" className="navbar-item" title="Social Media">
+              Medlemskap
+            </Link>
+          </div>
         </div>
       </nav>
     )
