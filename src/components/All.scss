@@ -7,36 +7,39 @@ $navy-light: #04284d;
 $navy-bright: #052f58;
 $white: #ffffff;
 $blue: #1173c3;
-$green: #39b6a9;
+$green: #ffcab1;
 $checkboxBackground: #2d9b8ab0;
 
 /* -------- NAVBAR -------- */
 .navbar {
   background-color: transparent;
+  padding: 10px;
   .navbar-item {
-    color: $white;
+    color: black;
     font-size: 20px;
     font-family: $openSans;
-    font-weight: 600;
+    font-weight: 400;
   }
 }
 /* -------- HERO -------- */
-.hero {
+.hero-component {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
-    url(../images/Sunnyhalden.png);
+    url(../images/road.jpg);
   background-repeat: none;
-  background-position: 0% 24%;
+  background-position: 0% 33%;
   background-color: $navy;
   background-size: cover;
-  height: 100vh;
   padding-bottom: 12px !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 60vh;
 
   .wrapper {
-    margin-top: 20vh;
-    text-align: center;
-
+    max-width: 60%;
+    padding-left: 5em;
     h1 {
       color: $white;
       font-size: 52px;
@@ -45,7 +48,7 @@ $checkboxBackground: #2d9b8ab0;
 
     h2 {
       color: white;
-      font-size: 42px;
+      font-size: 28px;
       font-family: $openSans;
     }
     .span {

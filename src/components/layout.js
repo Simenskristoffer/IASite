@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import Navbar from "../components/Navbar"
 import "./All.scss"
 
 const Layout = ({ children }) => {
@@ -7,14 +8,14 @@ const Layout = ({ children }) => {
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{"Smart City Halden - Haldens billigste bilutleie"}</title>
-        <meta
-          name="description"
-          content={
-            "Prøv ut Haldens billigste leietilbud for bil! Få tilgang til over 20 biler. Alt samlet på en app!"
+        <title>
+          {
+            "Move About AS - Miljøvennlig transport alternativer for bedrifter og privatpersoner"
           }
-        />
+        </title>
+        <meta name="description" content={"Lorum ipsum!"} />
       </Helmet>
+      <Navbar />
       <main>{children}</main>
     </>
   )
