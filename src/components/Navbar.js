@@ -59,25 +59,70 @@ const Navbar = class extends React.Component {
           </a>
         </div>
         <div className="navbar-menu">
-          <div class="navbar-end">
+          <div className="navbar-end">
             <Link to="/" className="navbar-item" title="Social Media">
               Hjem
             </Link>
             <Link to="/Booking" className="navbar-item" title="Social Media">
               Book nå
             </Link>
-            <Link to="/hvordan-det-funker" className="navbar-item">
-              Hvordan virker det?
-            </Link>
-            <Link to="/våre-produkter" className="navbar-item">
-              Våre produkter
-            </Link>
-            <Link to="/kontakt" className="navbar-item" title="Social Media">
-              Kontakt
-            </Link>
-            <Link to="/medlemskap" className="navbar-item" title="Social Media">
-              Medlemskap
-            </Link>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link to="/hvordan-det-funker" className="navbar-link">
+                Hvordan det virker
+              </Link>
+
+              <div className="navbar-dropdown">
+                <Link to="/hvordan-det-funker" className="navbar-item">
+                  El-biler
+                </Link>
+                <Link to="/hvordan-det-funker" className="navbar-item">
+                  El-sykler
+                </Link>
+              </div>
+            </div>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link to="/våre-produkter" className="navbar-link">
+                Våre produkter
+              </Link>
+
+              <div className="navbar-dropdown">
+                <Link to="/våre-produkter" className="navbar-item">
+                  El-biler
+                </Link>
+                <Link to="/våre-produkter" className="navbar-item">
+                  El-sykler
+                </Link>
+                <Link to="/våre-produkter" className="navbar-item">
+                  El-sparkesykkel
+                </Link>
+              </div>
+            </div>
+
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link to="/våre-produkter" className="navbar-link">
+                Kontakt
+              </Link>
+
+              <div className="navbar-dropdown">
+                <Link to="/våre-produkter" className="navbar-item">
+                  FAQ
+                </Link>
+                <Link to="/våre-produkter" className="navbar-item">
+                  Om oss
+                </Link>
+              </div>
+            </div>
+            <div className="navbar-item has-dropdown is-hoverable">
+              <Link to="/våre-produkter" className="navbar-link">
+                Medlemskap
+              </Link>
+
+              <div className="navbar-dropdown">
+                <Link to="/våre-produkter" className="navbar-item">
+                  Bli medlem
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </nav>

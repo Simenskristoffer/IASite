@@ -7,13 +7,15 @@ $navy-light: #04284d;
 $navy-bright: #052f58;
 $white: #ffffff;
 $blue: #1173c3;
-$green: #ffcab1;
+$primary-color: #71dbff;
+$secondary-color: #ff845b;
 $checkboxBackground: #2d9b8ab0;
 
 /* -------- NAVBAR -------- */
 .navbar {
   background-color: transparent;
   padding: 10px;
+
   .navbar-item {
     color: black;
     font-size: 20px;
@@ -36,7 +38,6 @@ $checkboxBackground: #2d9b8ab0;
   align-items: center;
   justify-content: left;
   height: 60vh;
-
   .wrapper {
     max-width: 60%;
     padding-left: 5em;
@@ -52,12 +53,12 @@ $checkboxBackground: #2d9b8ab0;
       font-family: $openSans;
     }
     .span {
-      color: $green;
+      color: $secondary-color;
     }
     .button {
       margin-top: 10px;
-      background-color: $green;
-      border-color: $green;
+      background-color: $secondary-color;
+      border-color: $secondary-color;
       color: $white;
       font-size: 20px;
       height: 55px;
@@ -68,7 +69,7 @@ $checkboxBackground: #2d9b8ab0;
     .button:hover {
       -webkit-transition: all 0.5s ease;
       background-color: $white;
-      color: $green;
+      color: $secondary-color;
     }
     .appleIcon {
       margin: 10px;
@@ -144,14 +145,12 @@ $checkboxBackground: #2d9b8ab0;
   background-color: $white;
   height: 100vh;
   h2 {
-    color: black;
-    font-size: 52px;
+    font-size: 48px;
     text-align: left;
     padding-bottom: 25px;
   }
   li {
-    font-size: 24px;
-    color: black;
+    font-size: 25px;
     margin-bottom: 10px;
     margin-left: 20px;
   }
@@ -175,25 +174,35 @@ $checkboxBackground: #2d9b8ab0;
   }
 }
 /* -------- OUR CARS -------- */
-#ourCars {
-  background-color: $navy;
+.our-products {
+  background-color: $white;
+  height: 20vh;
   .title {
-    color: $white;
     font-size: 52px;
-    text-align: center;
+    text-align: left;
     padding-bottom: 25px;
     font-family: $openSans;
   }
+  .subtitle {
+    font-size: 28px;
+    text-align: left;
+    font-family: $openSans;
+    color: $secondary-color;
+  }
+}
+
+#ourCars {
+  background-color: $white;
+
   .carInfo {
     font-size: 25px;
     font-family: $openSans;
-    color: $white;
     font-weight: 500;
   }
   .button {
     margin-top: 20px;
-    background-color: $green;
-    border-color: $green;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
     color: $white;
     font-size: 20px;
     height: 55px;
@@ -204,15 +213,73 @@ $checkboxBackground: #2d9b8ab0;
   .button:hover {
     -webkit-transition: all 0.5s ease;
     background-color: $white;
-    color: $green;
+    color: $secondary-color;
   }
 }
 .line {
   height: 2px;
-  background-color: $green;
+  background-color: $secondary-color;
   border: none;
 }
 
 //NEW-PAGE
 
+.prodinfo {
+  .textwrapper {
+    margin-left: 2em;
+    margin-bottom: 3em;
+    h2 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 28px;
+    }
+  }
+  .product-button-main-page {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 5em;
+    height: 35px;
+    border-radius: 50px;
+    color: white;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+  }
+  .product-button-main-page:hover {
+    -webkit-transition: all 0.5s ease;
+    background-color: $white;
+    color: $secondary-color;
+  }
+
+  .product-image-main-page {
+    max-width: 70%;
+  }
+  .product-title-main-page {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+}
+
+.further-nav {
+  .column {
+    border: 2px solid $primary-color;
+    margin: 5px;
+    height: 25em;
+    border-radius: 5px;
+  }
+}
+.footer {
+  .columns {
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  a {
+    color: #5f5f5f;
+  }
+  a:hover {
+    color: $secondary-color;
+  }
+}
 @import "~bulma/bulma.sass";
