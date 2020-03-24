@@ -1,6 +1,6 @@
 import React from "react"
 import Elsykkel from "../images/elsykkel.jpg"
-import ElSparkesykkel from "../images/ElSparkesykkel.jpg"
+import ElSparkesykkel from "../images/elsparkesykkel.jpg"
 import Elgolf from "../images/elgolfutvalg.jpg"
 
 const ProdIntro = () => (
