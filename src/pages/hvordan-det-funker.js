@@ -1,7 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import HowItWorks from "../components/HowToUse"
-import Iframe from "../components/Iframe"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 
 const HowItWorksPage = () => (
@@ -23,7 +22,14 @@ const HowItWorksPage = () => (
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column">
-            <Iframe />
+            <iframe
+              style={{ height: "500px", width: "70%" }}
+              className="iframe"
+              src="https://www.youtube.com/embed/t0F77-PcFQI"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
           </div>
           <div className="column">
             <h2 className="title">Uhell eller havari?</h2>
