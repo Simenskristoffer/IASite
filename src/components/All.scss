@@ -308,5 +308,22 @@ $checkboxBackground: #2d9b8ab0;
     height: 600px !important;
   }
 }
+.fixed-menu {
+  background-color: $secondary-color;
+  height: 100px;
+  width: auto;
+  position: fixed;
+  top: 50%;
+  left: 10px;
+  border-radius: 8px;
+  text-align: center;
+  li {
+    margin: 5px;
+  }
+
+  li a {
+    color: $white;
+  }
+}
 
 @import "~bulma/bulma.sass";

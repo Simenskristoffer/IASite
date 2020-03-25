@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import OurCars from "../components/OurCars"
+import FixedMenu from "../components/FixedMenu"
 
 const OurProducts = () => (
   <Layout>
@@ -14,6 +15,8 @@ const OurProducts = () => (
       </div>
     </section>
     <OurCars />
+    <FixedMenu linkOne={"#ourCars"} titleOne={"Elektriske biler"} linkTwo={"#elsykkel"} titleTwo={"Elektrisk sykkel"} linkThree={"#sparkesykkel"}
+    titleThree={"Elektrisk sparkesykkel"}/>
   </Layout>
 )
 
