@@ -278,4 +278,35 @@ $checkboxBackground: #2d9b8ab0;
     color: $secondary-color;
   }
 }
+.standard-button {
+  margin-top: 10px;
+  font-size: 20px;
+  width: auto;
+  height: 35px;
+  border-radius: 50px;
+  color: white;
+  background-color: $secondary-color;
+  border-color: $secondary-color;
+}
+.standard-button a {
+  color: $white;
+}
+.standard-button:hover {
+  -webkit-transition: all 0.5s ease;
+  background-color: $white;
+  color: $secondary-color;
+}
+.standard-button a:hover {
+  -webkit-transition: all 0.5s ease;
+  background-color: $white;
+  color: $secondary-color;
+}
+.iframe-seciton {
+  height: 40vh;
+  .iframe {
+    width: 100% !important;
+    height: 600px !important;
+  }
+}
+
 @import "~bulma/bulma.sass";

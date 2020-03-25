@@ -1,15 +1,16 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import Iphone from "../images/iphoneIllustrasjon.png"
 
-export default function HowToUse() {
+export default function HowToUse(props) {
   return (
     <>
-      <section className="section is-medium iphoneIllustration">
+      <section className="section is-medium iphoneIllustration" id="HowToUse">
         <div className="container">
-          <div className="columns">
+          <div className="columns is-vcentered">
             <div className="column">
-              <h2>Slik kommer du i gang</h2>
+              {props.title ? <h2>{props.title}</h2> : null}
               <ol type="1">
                 <li>Last ned appen Move About og registrer deg</li>
                 <li>Logg inn og fortell hvor og når du vil hente bilen</li>
@@ -17,6 +18,9 @@ export default function HowToUse() {
                 <li>Hent bilen</li>
                 <li>God tur!</li>
               </ol>
+              <button className="standard-button">
+                <Link to="/hvordan-det-funker">Finn ut mer</Link>
+              </button>
             </div>
             <div className="column">
               <img

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Smart City Halden`,
-    description: `Landingsside for Smart City Halden`,
+    description: `MoveAbout - 100% miljøvennlig transportmuligheter`,
     author: `@simenStubsjoen`,
   },
   plugins: [

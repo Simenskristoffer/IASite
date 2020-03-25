@@ -76,7 +76,7 @@ export default function OurCars() {
           </div>
         </section>
         <hr className="line" />
-        <section className="section is-medium">
+        <section className="section is-medium" id="elsykkel">
           <div className="columns is-vcentered ">
             <div className="column">
               <p className="carInfo">
@@ -98,7 +98,7 @@ export default function OurCars() {
           </div>
         </section>
         <hr className="line" />
-        <section className="section" id="ourCars">
+        <section className="section" id="sparkesykkel">
           <div className="columns is-vcentered">
             <div className="column">
               <img src={Sparkesykkel} alt="smart city el-golf" />

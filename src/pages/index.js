@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <ProdInfo />
-    <HowToUse />
+    <HowToUse title="Slik kommer du i gang" />
   </Layout>
 )
 

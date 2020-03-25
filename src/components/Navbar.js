@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import Logo from "../images/move-about-logo-blue.svg"
 
@@ -73,10 +74,10 @@ const Navbar = class extends React.Component {
 
               <div className="navbar-dropdown">
                 <Link to="/hvordan-det-funker" className="navbar-item">
-                  El-biler
+                  Informasjon om tjenesten
                 </Link>
                 <Link to="/hvordan-det-funker" className="navbar-item">
-                  El-sykler
+                  Priser
                 </Link>
               </div>
             </div>
@@ -92,9 +93,9 @@ const Navbar = class extends React.Component {
                 <Link to="/våre-produkter" className="navbar-item">
                   El-sykler
                 </Link>
-                <Link to="/våre-produkter" className="navbar-item">
+                <AnchorLink href="#sparkesykkel" className="navbar-item">
                   El-sparkesykkel
-                </Link>
+                </AnchorLink>
               </div>
             </div>
 
