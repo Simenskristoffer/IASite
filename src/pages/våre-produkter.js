@@ -15,8 +15,14 @@ const OurProducts = () => (
       </div>
     </section>
     <OurCars />
-    <FixedMenu linkOne={"#ourCars"} titleOne={"Elektriske biler"} linkTwo={"#elsykkel"} titleTwo={"Elektrisk sykkel"} linkThree={"#sparkesykkel"}
-    titleThree={"Elektrisk sparkesykkel"}/>
+    <FixedMenu
+      linkOne={"#ourCars"}
+      titleOne={"El-biler"}
+      linkTwo={"#elsykkel"}
+      titleTwo={"El-sykler"}
+      linkThree={"#sparkesykkel"}
+      titleThree={"El-sparkesykkel"}
+    />
   </Layout>
 )
 

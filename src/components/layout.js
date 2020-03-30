@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
+import FurtherNav from "../components/FurtherNav"
 import "./All.scss"
 
 const Layout = ({ children }) => {
@@ -18,6 +19,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Navbar />
       <main>{children}</main>
+      <FurtherNav />
       <Footer />
     </>
   )

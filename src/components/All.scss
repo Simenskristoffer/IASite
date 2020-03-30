@@ -257,11 +257,30 @@ $checkboxBackground: #2d9b8ab0;
 }
 
 .further-nav {
+  .further-nav-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .further-nav-icon {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
   .column {
     border: 2px solid $primary-color;
     margin: 5px;
     height: 25em;
     border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .column:hover {
+    -webkit-transform: scale(0.95);
+    transform: scale(0.95);
+  }
+  .column h2 {
+    font-size: 28px;
   }
 }
 .footer {
@@ -310,20 +329,27 @@ $checkboxBackground: #2d9b8ab0;
 }
 .fixed-menu {
   background-color: $secondary-color;
-  height: 100px;
+  height: auto;
   width: auto;
   position: fixed;
   top: 50%;
   left: 10px;
   border-radius: 8px;
   text-align: center;
+  padding: 5px;
   li {
-    margin: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
   }
 
   li a {
     color: $white;
   }
+}
+.fixed-menu-hr {
+  height: 1px;
+  width: 80%;
+  margin: 10px;
 }
 
 @import "~bulma/bulma.sass";

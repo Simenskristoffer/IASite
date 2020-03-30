@@ -7,9 +7,11 @@ const FixedMenu = props => (
       <li>
         <AnchorLink href={props.linkOne}>{props.titleOne}</AnchorLink>
       </li>
+      <hr align="center" className="fixed-menu-hr" />
       <li>
         <AnchorLink href={props.linkTwo}>{props.titleTwo}</AnchorLink>
       </li>
+      <hr className="fixed-menu-hr" />
       <li>
         <AnchorLink href={props.linkThree}>{props.titleThree}</AnchorLink>
       </li>
