@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AnchorLink from "react-anchor-link-smooth-scroll"
 
 import Iphone from "../images/iphoneIllustrasjon.png"
 
@@ -19,7 +19,7 @@ export default function HowToUse(props) {
                 <li>God tur!</li>
               </ol>
               <button className="standard-button">
-                <Link to="/hvordan-det-funker">Finn ut mer</Link>
+                <AnchorLink href="#havari">Finn ut mer</AnchorLink>
               </button>
             </div>
             <div className="column">

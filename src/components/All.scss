@@ -23,6 +23,10 @@ $checkboxBackground: #2d9b8ab0;
     font-weight: 400;
   }
 }
+.navar-item-active {
+  color: $primary-color !important;
+}
+
 /* -------- HERO -------- */
 .hero-component {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)),
@@ -172,7 +176,7 @@ $checkboxBackground: #2d9b8ab0;
 /* -------- OUR CARS -------- */
 .our-products {
   background-color: $white;
-  height: 20vh;
+  height: 30vh;
   .title {
     font-size: 52px;
     text-align: left;
@@ -194,6 +198,15 @@ $checkboxBackground: #2d9b8ab0;
     font-size: 25px;
     font-family: $openSans;
     font-weight: 500;
+  }
+  .carInfo-title {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  .carInfo-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
   }
   .button {
     margin-top: 20px;
@@ -231,6 +244,22 @@ $checkboxBackground: #2d9b8ab0;
       font-size: 28px;
     }
   }
+  .button {
+    margin-top: 10px;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    color: $white;
+    font-size: 20px;
+    width: 5em;
+    height: 35px;
+    font-weight: 500;
+    border-radius: 50px;
+  }
+  .button:hover {
+    -webkit-transition: all 0.5s ease;
+    background-color: $white;
+    color: $secondary-color;
+  }
   .product-button-main-page {
     margin-top: 10px;
     font-size: 20px;
@@ -266,9 +295,25 @@ $checkboxBackground: #2d9b8ab0;
     font-size: 50px;
     margin-top: 10px;
   }
+  .button {
+    margin-top: 20px;
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+    color: $white;
+    font-size: 17px;
+    height: 47px;
+    width: 134px;
+    font-weight: 500;
+    border-radius: 50px;
+  }
+  .button:hover {
+    -webkit-transition: all 0.5s ease;
+    background-color: $white;
+    color: $secondary-color;
+  }
 
   .column {
-    border: 2px solid $primary-color;
+    border: 2px solid $secondary-color;
     margin: 5px;
     height: 25em;
     border-radius: 5px;

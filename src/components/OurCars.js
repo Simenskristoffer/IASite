@@ -16,6 +16,7 @@ export default function OurCars() {
               <img src={elgolf} alt="smart city el-golf" />
             </div>
             <div className="column">
+              <h2 className="carInfo-title">VW E-golf</h2>
               <p className="carInfo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -25,6 +26,7 @@ export default function OurCars() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <p className="carInfo-price">Fra 79,- kr timen med MoveSome</p>
               <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
@@ -35,6 +37,7 @@ export default function OurCars() {
         <section className="section is-medium">
           <div className="columns is-vcentered ">
             <div className="column">
+              <h2 className="carInfo-title">Nissan Leaf</h2>
               <p className="carInfo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -44,6 +47,7 @@ export default function OurCars() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <p className="carInfo-price">Fra 89,- kr timen med MoveSome</p>
               <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
@@ -60,6 +64,7 @@ export default function OurCars() {
               <img src={elvarebil} alt="smart city el-golf" />
             </div>
             <div className="column">
+              <h2 className="carInfo-title">Nissan e-NV200</h2>
               <p className="carInfo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -69,6 +74,7 @@ export default function OurCars() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <p className="carInfo-price">Fra 69,- kr timen med MoveSome</p>
               <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
@@ -79,6 +85,8 @@ export default function OurCars() {
         <section className="section is-medium" id="elsykkel">
           <div className="columns is-vcentered ">
             <div className="column">
+              <h2 className="carInfo-title">Elsykkel og ellastesykkel</h2>
+
               <p className="carInfo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -88,6 +96,7 @@ export default function OurCars() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <p className="carInfo-price">Fra 49,- kr timen med MoveSome</p>
               <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>
@@ -104,6 +113,7 @@ export default function OurCars() {
               <img src={Sparkesykkel} alt="smart city el-golf" />
             </div>
             <div className="column">
+              <h2 className="carInfo-title">Elektrisk sparkesykkel</h2>
               <p className="carInfo">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -113,6 +123,7 @@ export default function OurCars() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
+              <p className="carInfo-price">Fra 29,- kr timen med MoveSome</p>
               <Link to="#utPaaTur" className="button">
                 Book i dag
               </Link>

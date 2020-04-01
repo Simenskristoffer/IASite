@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import HowItWorks from "../components/HowToUse"
 import AnchorLink from "react-anchor-link-smooth-scroll"
+import FixedMenu from "../components/FixedMenu"
 
 const HowItWorksPage = () => (
   <Layout>
@@ -9,7 +10,7 @@ const HowItWorksPage = () => (
       <div className="container">
         <h2 className="title">Slik gjør du</h2>
         <p className="subtitle">
-          Med noen enkle tastetrykk kan du enkelt få tilgang <br /> til det
+          Med noen enkle tastetrykk kan du enkelt få tilgang til det <br />
           transportmiddelet som passer deg!
         </p>
         <button className="standard-button">
@@ -18,17 +19,18 @@ const HowItWorksPage = () => (
       </div>
     </section>
     <HowItWorks />
-    <section className="section havari ">
+    <section className="section havari " id="havari">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column">
             <iframe
+              title="Move About video"
               style={{ height: "500px", width: "70%" }}
               className="iframe"
               src="https://www.youtube.com/embed/t0F77-PcFQI"
-              frameborder="0"
+              frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allowFullScreen
             />
           </div>
           <div className="column">
@@ -56,6 +58,14 @@ const HowItWorksPage = () => (
         </div>
       </div>
     </section>
+    <FixedMenu
+      linkOne={"#HowToUse"}
+      titleOne={"Guide"}
+      linkTwo={"#havari"}
+      titleTwo={"Uhell eller havari"}
+      linkThree={"#further-nav"}
+      titleThree={"Andre tjenester"}
+    />
   </Layout>
 )
 

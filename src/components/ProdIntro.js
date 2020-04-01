@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Elsykkel from "../images/elsykkel.jpg"
 import ElSparkesykkel from "../images/elsparkesykkel.jpg"
 import Elgolf from "../images/elgolfutvalg.jpg"
@@ -19,7 +20,9 @@ const ProdIntro = () => (
             className="product-image-main-page"
           />
           <p className="product-title-main-page">Elektrisk sykkel</p>
-          <button className="product-button-main-page">Utforsk</button>
+          <Link to="#utPaaTur" className="button">
+            Utforsk
+          </Link>
         </div>
         <div className="column circle">
           <img
@@ -28,7 +31,9 @@ const ProdIntro = () => (
             className="product-image-main-page"
           />
           <p className="product-title-main-page">Elektrisk sparkesykkel</p>
-          <button className="product-button-main-page">Utforsk</button>
+          <Link to="#utPaaTur" className="button">
+            Utforsk
+          </Link>
         </div>
         <div className="column circle">
           <img
@@ -37,7 +42,9 @@ const ProdIntro = () => (
             className="product-image-main-page"
           />
           <p className="product-title-main-page">Elektirsk bil</p>
-          <button className="product-button-main-page">Utforsk</button>
+          <Link to="#utPaaTur" className="button">
+            Utforsk
+          </Link>
         </div>
       </div>
     </div>
