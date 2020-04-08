@@ -37,11 +37,10 @@ const Footer = () => (
       <div className="column">
         <h2>Om oss</h2>
         <ul>
-          <li>Book Nå</li>
-          <li>Hvordan virker det?</li>
-          <li>Våre produkter</li>
-          <li>Kontakt</li>
-          <li>Medlemskap</li>
+          <li>Bærekraft</li>
+          <li>Nyheter</li>
+          <li>Appen vår</li>
+          <li>Kontakt oss</li>
         </ul>
       </div>
       <div className="column">
