@@ -11,9 +11,6 @@ $primary-color: #71dbff;
 $secondary-color: #ff845b;
 $checkboxBackground: #2d9b8ab0;
 
-.section {
-  padding: 4rem 1.5rem !important;
-}
 .our-products {
   margin-top: 9em;
 }
@@ -401,6 +398,10 @@ $checkboxBackground: #2d9b8ab0;
   height: 1px;
   width: 80%;
   margin: 10px;
+}
+
+.section {
+  padding: 4rem 1.5rem !important;
 }
 
 .divider {

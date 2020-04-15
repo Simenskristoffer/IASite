@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <ProdInfo />
-    <div class="divider div-transparent"></div>
+    <div className="divider div-transparent"></div>
     <HowToUse title="Slik kommer du i gang" />
   </Layout>
 )

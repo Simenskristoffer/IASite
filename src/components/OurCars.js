@@ -33,7 +33,7 @@ export default function OurCars() {
             </div>
           </div>
         </section>
-        <div class="divider div-transparent"></div>
+        <div className="divider div-transparent"></div>
         <section className="section is-medium">
           <div className="columns is-vcentered ">
             <div className="column">
@@ -57,7 +57,7 @@ export default function OurCars() {
             </div>
           </div>
         </section>
-        <div class="divider div-transparent"></div>
+        <div className="divider div-transparent"></div>
         <section className="section" id="ourCars">
           <div className="columns is-vcentered">
             <div className="column">
@@ -81,7 +81,7 @@ export default function OurCars() {
             </div>
           </div>
         </section>
-        <div class="divider div-transparent"></div>
+        <div className="divider div-transparent"></div>
         <section className="section is-medium" id="elsykkel">
           <div className="columns is-vcentered ">
             <div className="column">
@@ -106,7 +106,7 @@ export default function OurCars() {
             </div>
           </div>
         </section>
-        <div class="divider div-transparent"></div>
+        <div className="divider div-transparent"></div>
         <section className="section" id="sparkesykkel">
           <div className="columns is-vcentered">
             <div className="column">

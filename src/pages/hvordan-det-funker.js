@@ -19,7 +19,7 @@ const HowItWorksPage = () => (
       </div>
     </section>
     <HowItWorks />
-    <div class="divider div-transparent"></div>
+    <div className="divider div-transparent"></div>
     <section className="section havari " id="havari">
       <div className="container">
         <div className="columns is-vcentered">

@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Navbar />
       <main>{children}</main>
-      <div class="divider div-transparent"></div>
+      <div className="divider div-transparent"></div>
       <FurtherNav />
       <Footer />
     </>
