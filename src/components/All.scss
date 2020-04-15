@@ -349,7 +349,8 @@ $checkboxBackground: #2d9b8ab0;
   margin-top: 10px;
   font-size: 20px;
   width: auto;
-  height: 35px;
+  height: 46px;
+  padding: 10px;
   border-radius: 50px;
   color: white;
   background-color: $secondary-color;
@@ -406,7 +407,7 @@ $checkboxBackground: #2d9b8ab0;
 
 .divider {
   position: relative;
-  margin: 90px 0px;
+  margin: 60px 0px;
   height: 1px;
 }
 .div-transparent:before {
