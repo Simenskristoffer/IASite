@@ -11,6 +11,13 @@ $primary-color: #71dbff;
 $secondary-color: #ff845b;
 $checkboxBackground: #2d9b8ab0;
 
+.section {
+  padding: 4rem 1.5rem !important;
+}
+.our-products {
+  margin-top: 9em;
+}
+
 /* -------- NAVBAR -------- */
 .navbar {
   background-color: transparent;
@@ -147,7 +154,6 @@ $checkboxBackground: #2d9b8ab0;
 /* -------- HowToUse COMPONENT -------- */
 .iphoneIllustration {
   background-color: $white;
-  height: 100vh;
   h2 {
     font-size: 48px;
     text-align: left;
@@ -395,6 +401,27 @@ $checkboxBackground: #2d9b8ab0;
   height: 1px;
   width: 80%;
   margin: 10px;
+}
+
+.divider {
+  position: relative;
+  margin: 90px 0px;
+  height: 1px;
+}
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    $secondary-color,
+    transparent
+  );
 }
 
 @import "~bulma/bulma.sass";

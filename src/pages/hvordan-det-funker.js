@@ -19,13 +19,14 @@ const HowItWorksPage = () => (
       </div>
     </section>
     <HowItWorks />
+    <div class="divider div-transparent"></div>
     <section className="section havari " id="havari">
       <div className="container">
         <div className="columns is-vcentered">
           <div className="column">
             <iframe
               title="Move About video"
-              style={{ height: "500px", width: "70%" }}
+              style={{ height: "360px", width: "100%" }}
               className="iframe"
               src="https://www.youtube.com/embed/t0F77-PcFQI"
               frameBorder="0"
