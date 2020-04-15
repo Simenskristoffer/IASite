@@ -41,7 +41,7 @@ const ProdIntro = () => (
             alt="Elektirsk bil"
             className="product-image-main-page"
           />
-          <p className="product-title-main-page">Elektirsk bil</p>
+          <p className="product-title-main-page">Elektrisk bil</p>
           <Link to="#utPaaTur" className="button">
             Utforsk
           </Link>
